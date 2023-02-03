@@ -1,0 +1,49 @@
+.btnblue {
+    background-color: #c2e3fb;
+    border-radius: 100px;
+    box-shadow: rgba(44, 89, 187, 0.35) 0 -25px 18px -14px inset,rgba(44, 75, 187, 0.25) 0 1px 2px,rgba(44, 65, 187, 0.25) 0 2px 4px,rgba(44, 80, 187, 0.25) 0 4px 8px,rgba(44, 56, 187, 0.25) 0 8px 16px,rgba(70, 44, 187, 0.25) 0 16px 32px;
+    color: rgb(40, 101, 221);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 8px;
+}
+ 
+.btnblue:hover {
+    box-shadow: rgba(44, 89, 187, 0.35) 0 -25px 18px -14px inset,rgba(44, 75, 187, 0.25) 0 1px 2px,rgba(44, 65, 187, 0.25) 0 2px 4px,rgba(44, 80, 187, 0.25) 0 4px 8px,rgba(44, 56, 187, 0.25) 0 8px 16px,rgba(70, 44, 187, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.btnyellow {
+    background-color: #fbf5c2;
+    border-radius: 100px;
+    box-shadow: rgba(173, 127, 42, 0.35) 0 -25px 18px -14px inset,rgba(146, 116, 28, 0.25) 0 1px 2px,rgba(157, 133, 26, 0.25) 0 2px 4px,rgba(136, 120, 28, 0.25) 0 4px 8px,rgba(187, 146, 44, 0.25) 0 8px 16px,rgba(187, 156, 44, 0.25) 0 16px 32px;
+    color: rgb(230, 155, 56);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 8px;
+}
+ 
+.btnyellow:hover {
+    box-shadow: rgba(162, 116, 31, 0.35) 0 -25px 18px -14px inset,rgba(169, 129, 10, 0.25) 0 1px 2px,rgba(170, 108, 27, 0.25) 0 2px 4px,rgba(143, 111, 6, 0.25) 0 4px 8px,rgba(187, 146, 44, 0.25) 0 8px 16px,rgba(152, 122, 14, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
