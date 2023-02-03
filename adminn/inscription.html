@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lingua</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Lingua project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles/bootstrap4/bootstrap.min.css">
+    <link href="../plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+    <div class="logo_container mr-auto">
+        <a href="../index.html">
+            <div class="logo_text">Unilang</div>
+        </a>
+    </div>
+    <div class="register_form_container ">
+        <div class="register_form_title my-5">Créer un compte</div>
+        <form method="post" action="../controller/utilisateur-controller.php?action=insert" id="register_form" class="register_form">
+            <div>
+                <div class="register_col">
+                    <input type="text" class="form_input" name="lastName" placeholder="Nom" required="required">
+                </div>
+                <div class="register_col">
+                    <input type="text" class="form_input" name="firstName" placeholder="Prénom" required>
+                </div>
+                <div class="register_col">
+                    <input type="password" class="form_input" name="password" placeholder="Mot de passe" required>
+                </div>
+                <div class="register_col">
+                    <input type="text" class="form_input" name="email" placeholder="Email" required>
+                </div>
+                <div class="register_col">
+                    <input type="text" class="form_input" name="profession" placeholder="Profession" required>
+                </div>
+                <div class="register_col">
+                    <input type="text" class="form_input" name="telephone" placeholder="Telephone" required>
+                </div>
+                <div class="register_col">
+                    <input type="text" class="form_input" name="CIN" placeholder="Carte d'identité nationale" required>
+                </div>
+                <div class="register_col">
+                    <input type="date" class="form_input" name="birthdate" placeholder="Date de naissance" required>
+                </div>
+                <div class="register_col">
+                    <input type="adresse" class="form_input" name="adresse" placeholder="Adresse" required>
+                </div>
+                <div>
+                    <button type="submit" style="width: 180px;" class="form_button trans_200">Valider</button>
+                </div>
+            </div>
+        </form>
+    </div>
+  
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../styles/bootstrap4/popper.js"></script>
+    <script src="../styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="../plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="../plugins/easing/easing.js"></script>
+    <script src="../js/custom.js"></script>
+</body>
+
+</html>
