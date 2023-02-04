@@ -1,0 +1,14 @@
+form
+{
+    margin:auto;
+    margin: 50px 200px 0 200px;
+}
+fieldset
+{
+    border-style: dotted;
+    border-color: rgb(57, 184, 243);
+}
+#bouton
+{
+    padding-top: 50px;
+}
